@@ -14,6 +14,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "awesome_drawer_bar",
+      "rootUri": "file:///home/chitroda/.pub-cache/hosted/pub.dev/awesome_drawer_bar-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///home/chitroda/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -90,6 +96,12 @@
       "rootUri": "file:///home/chitroda/snap/flutter/common/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_adaptive_scaffold",
+      "rootUri": "file:///home/chitroda/.pub-cache/hosted/pub.dev/flutter_adaptive_scaffold-0.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
     },
     {
       "name": "flutter_blurhash",
@@ -422,7 +434,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-08-15T11:27:52.707525Z",
+  "generated": "2023-08-19T17:17:19.416924Z",
   "generator": "pub",
   "generatorVersion": "3.0.6"
 }

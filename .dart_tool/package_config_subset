@@ -6,6 +6,10 @@ async
 2.18
 file:///home/chitroda/.pub-cache/hosted/pub.dev/async-2.11.0/
 file:///home/chitroda/.pub-cache/hosted/pub.dev/async-2.11.0/lib/
+awesome_drawer_bar
+2.12
+file:///home/chitroda/.pub-cache/hosted/pub.dev/awesome_drawer_bar-1.2.0/
+file:///home/chitroda/.pub-cache/hosted/pub.dev/awesome_drawer_bar-1.2.0/lib/
 boolean_selector
 2.17
 file:///home/chitroda/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1/
@@ -54,6 +58,10 @@ file
 2.12
 file:///home/chitroda/.pub-cache/hosted/pub.dev/file-6.1.4/
 file:///home/chitroda/.pub-cache/hosted/pub.dev/file-6.1.4/lib/
+flutter_adaptive_scaffold
+2.18
+file:///home/chitroda/.pub-cache/hosted/pub.dev/flutter_adaptive_scaffold-0.0.9/
+file:///home/chitroda/.pub-cache/hosted/pub.dev/flutter_adaptive_scaffold-0.0.9/lib/
 flutter_blurhash
 2.15
 file:///home/chitroda/.pub-cache/hosted/pub.dev/flutter_blurhash-0.7.0/
@@ -260,8 +268,8 @@ file:///home/chitroda/.pub-cache/hosted/pub.dev/xml-6.3.0/
 file:///home/chitroda/.pub-cache/hosted/pub.dev/xml-6.3.0/lib/
 puranegane_lyrics_app
 3.0
-file:///home/chitroda/FlutterProject/puranegane_lyrics_app/
-file:///home/chitroda/FlutterProject/puranegane_lyrics_app/lib/
+file:///home/chitroda/FlutterProject/puranegane-lyrics/
+file:///home/chitroda/FlutterProject/puranegane-lyrics/lib/
 sky_engine
 3.0
 file:///home/chitroda/snap/flutter/common/flutter/bin/cache/pkg/sky_engine/

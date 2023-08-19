@@ -19,6 +19,7 @@ dependencies:
   cached_network_image: ^3.2.3
   flutter_svg: ^2.0.7
   shimmer: ^3.0.0
+  awesome_drawer_bar: ^1.2.0
 
 dev_dependencies:
   flutter_test:
@@ -39,6 +40,7 @@ flutter:
     - assets/icons/
     - assets/svgicons/
     - assets/applogos/
+    - assets/artiest/
 
   fonts:
     - family: Lato-Regular
