@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:puranegane_lyrics_app/Config/Utils/colors.dart';
 import 'package:puranegane_lyrics_app/Config/Utils/styles.dart';
 
-Widget CustomAppBar(
+Widget customAppBar(
     {String? text,
     Widget? backIcon,
     Widget? actionIcon1,
     Widget? actionIcon2,
-    bool? isbackArrow,
+    bool? isBackArrow,
     bool? isActionIcon1,
     bool? isActionIcon2,
     double? height,
@@ -28,11 +28,11 @@ Widget CustomAppBar(
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            SizedBox(width: 16),
-            isbackArrow == true
-                ? backIcon ?? Icon(Icons.arrow_back_ios_new_outlined)
-                : SizedBox(),
-            SizedBox(width: 16),
+            const SizedBox(width: 16),
+            isBackArrow == true
+                ? backIcon ?? const Icon(Icons.arrow_back_ios_new_outlined)
+                : const SizedBox(),
+            const SizedBox(width: 16),
             Center(
               child: Text(
                 text ?? "",
@@ -49,10 +49,10 @@ Widget CustomAppBar(
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            isActionIcon1 == true ? actionIcon1 ?? SizedBox() : SizedBox(),
-            SizedBox(width: 16),
-            isActionIcon2 == true ? actionIcon2 ?? SizedBox() : SizedBox(),
-            SizedBox(width: 16),
+            isActionIcon1 == true ? actionIcon1 ?? const SizedBox() : const SizedBox(),
+            const SizedBox(width: 16),
+            isActionIcon2 == true ? actionIcon2 ?? const SizedBox() : const SizedBox(),
+            const SizedBox(width: 16),
           ],
         )
       ],
@@ -60,7 +60,7 @@ Widget CustomAppBar(
   );
 }
 
-Widget NewCustomAppBar(
+Widget newCustomAppBar(
     {Widget? iconLeft,
     Widget? iconRight1,
     Widget? iconRight2,
@@ -72,16 +72,16 @@ Widget NewCustomAppBar(
     }) {
   return ClipRect(
     child: BackdropFilter(
-      filter: new ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
+      filter:  ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
       child: Container(
-        padding: EdgeInsets.only(bottom: 20,top: 20),
+        padding: const EdgeInsets.only(bottom: 20,top: 20),
         decoration: BoxDecoration(
           color: gray.withOpacity(0.2),
-          border: Border(bottom: BorderSide(width: 1,color: light_gray))
+          border: const Border(bottom: BorderSide(width: 1,color: light_gray))
         ),
         // margin:   EdgeInsets.only(left: 20.0,right: 20,top: 20),
         child: Padding(
-          padding: EdgeInsets.only(left: 20.0,right: 20,top: 0),
+          padding: const EdgeInsets.only(left: 20.0,right: 20,top: 0),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -89,7 +89,7 @@ Widget NewCustomAppBar(
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  isIconLeft==true?iconLeft ?? SizedBox():SizedBox()
+                  isIconLeft==true?iconLeft ?? const SizedBox():const SizedBox()
                 ],
               ),
               Text(
@@ -104,8 +104,8 @@ Widget NewCustomAppBar(
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  isIconRight1==true?iconRight1 ?? SizedBox():SizedBox(),
-                  isIconRight2==true?iconRight2 ?? SizedBox():SizedBox()
+                  isIconRight1==true?iconRight1 ?? const SizedBox():const SizedBox(),
+                  isIconRight2==true?iconRight2 ?? const SizedBox():const SizedBox()
                 ],
               )
             ],

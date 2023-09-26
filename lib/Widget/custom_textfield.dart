@@ -25,11 +25,11 @@ Widget SearchTextField({
 
       cursorColor: black,
       decoration: InputDecoration(
-        contentPadding: EdgeInsets.symmetric(horizontal: 14,vertical: 10),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 14,vertical: 10),
         enabled: true,
         hintText: hintText??"",
         helperStyle: TextStyle(
-            color: hint_colour,
+            color: hintColor,
             fontWeight: FontWeight.w700,
             fontFamily: fontafamily,
             fontSize: 18
@@ -39,10 +39,10 @@ Widget SearchTextField({
           padding: const EdgeInsets.all(12.0),
           child: SvgPicture.asset(search_svg,width: 20,height: 20),
         ),
-        disabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: BorderSide(color: black,width: 1)),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: BorderSide(color: black,width: 1)),
-        enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: BorderSide(color: black,width: 1)),
-        focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: BorderSide(color: black,width: 1)),
+        disabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: const BorderSide(color: black,width: 1)),
+        border: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: const BorderSide(color: black,width: 1)),
+        enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: const BorderSide(color: black,width: 1)),
+        focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(14),borderSide: const BorderSide(color: black,width: 1)),
       ),
     ),
   );

@@ -12,24 +12,24 @@ class CustomDrawer extends StatefulWidget {
 class _CustomDrawerState extends State<CustomDrawer> {
   @override
   Widget build(BuildContext context) {
-    return Drawer(child: DrawerData());
+    return Drawer(child: drawerData());
   }
 
-  Widget DrawerData() {
+  Widget drawerData() {
     return SafeArea(
       child: Container(
         width: 320,
         height: Get.height,
         clipBehavior: Clip.hardEdge,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
             color: gray,
             borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10),
                 bottomLeft: Radius.circular(10))),
-        child: Stack(
+        child: const Stack(
           children: [
-            Column(
-              children: [
+             Column(
+              children:  [
                 // DrawerHeader(),
               ],
             ),
@@ -42,21 +42,21 @@ class _CustomDrawerState extends State<CustomDrawer> {
 
 
 
-Widget DrawerData() {
+Widget drawerData() {
   return SafeArea(
     child: Container(
       width: 320,
       height: Get.height,
       clipBehavior: Clip.hardEdge,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
           color: gray,
-          borderRadius: BorderRadius.only(
+          borderRadius:  BorderRadius.only(
               topLeft: Radius.circular(10),
-              bottomLeft: Radius.circular(10))),
-      child: Stack(
-        children: [
+              bottomLeft:  Radius.circular(10))),
+      child: const Stack(
+        children:  [
           Column(
-            children: [
+            children:  [
               // DrawerHeader(),
             ],
           ),

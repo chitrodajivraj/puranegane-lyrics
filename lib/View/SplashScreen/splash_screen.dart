@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:puranegane_lyrics_app/Config/Utils/colors.dart';
-import 'package:puranegane_lyrics_app/Controller/SplashScreenController/SplashScreenController.dart';
-import 'package:puranegane_lyrics_app/View/HomePage/HomePage.dart';
+import 'package:puranegane_lyrics_app/Controller/SplashScreenController/splashScreen_controller.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

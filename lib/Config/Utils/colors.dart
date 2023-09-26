@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 const colorPrimary = Color(0xffbf1010);
-const colorbackground = Color(0xff000000);
-const colorlblgreen = Color(0xff53C580);
-const colorlblwhite = Color(0xffffffff);
-const lightbtncolor = Color(0xffDF8F60);
+const colorBackground = Color(0xff000000);
+const colorGreen = Color(0xff53C580);
+const colorWhite = Color(0xffffffff);
+const lightColor = Color(0xffDF8F60);
 const colorPrimaryDark = Color(0xFFf17015);
 const colorAccent = Color(0xFFf17015);
 
 
-const hint_colour = Color(0xFFC4C4C4);
+const hintColor = Color(0xFFC4C4C4);
 const green = Color(0xFF6FCF97);
 const red = Color(0xFFD75059);
 const white = Color(0xFFffffff);
@@ -66,4 +66,4 @@ const textcolor = Color(0xFFBFBFBF);
 const favgraycolor = Color(0xFFD9D9D9);
 const gray = Color(0xFFC6C6C6);
 const stroke333 = Color(0xFF4D4D4D);
-const coin_yellow = Color(0xFFFFE101);
+const coinYellow = Color(0xFFFFE101);
